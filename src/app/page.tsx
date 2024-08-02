@@ -1,9 +1,9 @@
 import Image from "next/image";
-import dandqImage from "../../../public/image-d&q.svg"
-import paso1 from "../../../public/Image_paso1.svg"
-import paso2 from "../../../public/Image_paso2.svg"
-import paso3 from "../../../public/Image_paso3.svg"
-import linkedin from "../../../public/linkedin.svg"
+import dandqImage from "../../public/image-d&q.svg"
+import paso1 from "../../public/Image_paso1.svg"
+import paso2 from "../../public/Image_paso2.svg"
+import paso3 from "../../public/Image_paso3.svg"
+import linkedin from "../../public/linkedin.svg"
 
 //bg-[#3E3838] bg-[#BEA5A5] bg-[#000000] bg-[#828282] bg-[#B2ADAD] bg-[#C4C3C3]
 
@@ -13,7 +13,7 @@ export default function Home() {
     <main className="min-h-screen bg-[#3E3838] text-[#BEA5A5] font-inter">
       <div className="max-w-6xl mx-auto px-4">
         <header className="py-8">
-          <h1 className="font-bold text-2xl">D&Q</h1>
+          <a href="/"><h1 className="font-bold text-2xl">D&Q</h1></a>
         </header>
 
         <section className="relative h-screen flex flex-col items-center justify-center text-center mb-32">
@@ -28,7 +28,7 @@ export default function Home() {
           <div className="relative z-10 px-4">
             <h1 className="text-5xl font-bold mb-4 text-[#BEA5A5]">Divide y Conquista<br />Objetivos</h1>
             <p className="text-xl mb-8 text-[#BEA5A5]">La manera más eficiente y rápida de conseguir tus objetivos</p>
-            <button className="bg-black text-white font-bold px-6 py-2 rounded">HAZLO YA</button>
+            <a href="/login" className="bg-black text-white font-bold px-6 py-2 rounded">HAZLO YA</a>
           </div>
         </section>
 
@@ -71,13 +71,13 @@ export default function Home() {
           </section>
         </div>
 
-        <section className="my-32 text-center">
+        <section className="my-60 text-center">
           <h2 className="text-4xl text-black font-bold mb-4">Toma acción ¡¡YA!!</h2>
           <p className="text-[#B2ADAD] mb-2">Tienes la herramienta</p>
           <p className="text-[#B2ADAD] mb-2">Tienes los objetivos</p>
           <p className="text-[#B2ADAD] mb-4">Tienes las ganas</p>
           <p className="text-white font-bold mb-4">Crea los hábitos pinchando en el siguiente botón.</p>
-          <button className="bg-black text-white font-bold px-6 py-2 rounded">HAZLO YA</button>
+          <a href="/login" className="bg-black text-white font-bold px-6 py-2 rounded">HAZLO YA</a>
         </section>
 
         <footer className="text-center py-16">
