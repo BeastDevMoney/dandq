@@ -4,7 +4,8 @@ const conn = {
     isConnectd: false
   }
   const DATABASE_SECRET_MVP = process.env.DATABASE_SECRET_MVP
-  console.log(DATABASE_SECRET_MVP)
+  
+  
   export async function connectDB_MVP () {
     if (conn.isConnectd) return
   
