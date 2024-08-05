@@ -7,7 +7,7 @@ const {Session} = require("../schemas/sessionCollection")
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
     const { username } = req.body;
-    console.log("Este es el nombre de usuario recibido: ",username)
+    
 
     try {
        await connectDB_MVP();

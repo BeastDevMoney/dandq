@@ -23,9 +23,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     case 'POST':
       const { objectives } = req.body;
       user.objectives = objectives;
-      console.log("Estos son los objetivos: ",objectives)
-      const userSAVED_Changes = await user.save();
-      console.log("Este es el resultado de guardar los cambios en la base de datos: ",userSAVED_Changes)
+      
+
+       await user.save();
+      
+
       return res.status(200).json({ message: 'Objectives saved successfully' });
 
     case 'DELETE':

@@ -3,7 +3,7 @@ import dandqImage from "../../public/image-d&q.svg"
 import paso1 from "../../public/Image_paso1.svg"
 import paso2 from "../../public/Image_paso2.svg"
 import paso3 from "../../public/Image_paso3.svg"
-import linkedin from "../../public/linkedin.svg"
+import linkedin from "../../public/LinkedIn.svg"
 
 //bg-[#3E3838] bg-[#BEA5A5] bg-[#000000] bg-[#828282] bg-[#B2ADAD] bg-[#C4C3C3]
 

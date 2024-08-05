@@ -28,7 +28,6 @@ async function cleanupUsers() {
     }
   }
 
-  console.log('User cleanup completed');
 }
 
 // Run the cleanup task every day at midnight
