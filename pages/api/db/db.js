@@ -4,7 +4,7 @@ const conn = {
     isConnectd: false
   }
   const DATABASE_SECRET_MVP = process.env.DATABASE_SECRET_MVP
-  
+  console.log("Esta es la contraseña que está logeandose",DATABASE_SECRET_MVP)
   
   export async function connectDB_MVP () {
     if (conn.isConnectd) return
