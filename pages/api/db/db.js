@@ -18,7 +18,7 @@ const conn = {
   db.on('connected', () => {
     console.log('Mongoose is conected')
   })
-  db.on('error', console.error.bind(console, 'Error de conexión a MongoDB:'))
+  db.on('error', console.error.bind(console, 'Error de conexión a MongoDB:', DATABASE_SECRET_MVP))
   
   db.once('open', () => {
     console.log('Conexión exitosa a MongoDB')
